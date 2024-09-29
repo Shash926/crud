@@ -46,6 +46,7 @@ public class controller {
 	public ResponseEntity<model> updatemodel(@PathVariable Integer cid,@RequestBody model Model){
 		return new ResponseEntity<model>(Service.update(cid,Model),HttpStatus.OK);
 }
+	//delete
 	@DeleteMapping("crud/{cid}")
 	public ResponseEntity<String> deletemodel(@PathVariable Integer cid){
 		String status = Service.deleteById(cid);

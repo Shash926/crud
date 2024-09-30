@@ -51,6 +51,6 @@ public class controller {
 	public ResponseEntity<String> deletemodel(@PathVariable Integer cid){
 		String status = Service.deleteById(cid);
 		return new ResponseEntity<>(status, HttpStatus.OK);
-		
+		//example
 	}
 }

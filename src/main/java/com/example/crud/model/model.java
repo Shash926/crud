@@ -20,7 +20,7 @@ public class model {
 	private String name;
 	@Column(name="price", length=20, nullable=false)
 	private Double price;
-	
+	//
 	public model() {}
 	public model(Integer cid, String name, Double price) {
 		super();

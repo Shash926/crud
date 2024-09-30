@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 //import lombok.Data;
 //this is model
-//@Data
+
 @Entity
 @Table(name = "COURSE_DTLS")
 public class model {

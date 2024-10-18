@@ -34,8 +34,7 @@ public class controller {
 	public ResponseEntity<model> getmodel(@PathVariable Integer cid){
 		model Model = Service.getById(cid);
 		return new ResponseEntity<>(Model, HttpStatus.OK);
-		//this is controller file.
-		//file
+		
 	}
 	@GetMapping("/crud")
 	public ResponseEntity<List<model>> getAllcrud(){
